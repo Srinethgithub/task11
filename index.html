@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <style>
+.main{
+    border:3px solid black;
+    width:826px;
+    height:842px;
+    position:absolute;
+    left:200px;
+}
+.text{
+    background-color: chocolate;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+    border: 3px solid black;
+}
+.col1>:nth-of-type(2n+1){
+    background-color: black;
+    height: 100px;
+    width:100px;
+    color: white;
+}
+.col1>:nth-of-type(2n){
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{
+    border: 3px solid black;
+}
+.col2>:nth-of-type(2n+1){
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+.col2>:nth-of-type(2n){
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.col2{
+    position: relative;
+    left:105px;
+    bottom:843px;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8 {
+    border: 3px solid black;
+}
+.col3>:nth-of-type(2n+1){
+    background-color: black;
+    width:100px;
+    height:100px;
+    color: white;
+}
+.col3>:nth-of-type(2n){
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+.col3{
+    position: relative;
+    left:206px;
+    bottom:1686px;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    border: 3px solid black;
+
+}
+.col4>:nth-of-type(2n+1){
+    background-color: white;
+    width:100px;
+    height:100px;
+}
+.col4>:nth-of-type(2n){
+    background-color: black;
+    width:100px;
+    height:100px;
+    color: white;
+}
+.col4{
+    position: relative;
+    left:311px;
+    bottom:2528px;
+}
+.e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8{
+    border: 3px solid black;
+}
+.col5>:nth-of-type(2n+1){
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.col5>:nth-of-type(2n){
+    background-color: white;
+    height:100px;
+    width:100px;
+}
+.col5{
+    position: relative;
+    left:416px;
+    bottom:3371px;
+}
+.f1,.f2,.f3,.f4,.f5,.f6,.f7,.f8{
+    border: 3px solid black;
+}
+.col6>:nth-of-type(2n+1){
+    background-color: white;
+    height:100px;
+    width:100px;
+}
+.col6>:nth-of-type(2n){
+    background-color: black;
+    height: 100px;
+    width:100px;
+    color: white;
+}
+.col6{
+    position: relative;
+    left:516px;
+    bottom:4214px;
+}
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8{
+    border: 3px solid black;
+}
+.col7>:nth-of-type(2n+1){
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.col7>:nth-of-type(2n){
+    background-color: white;
+    height:100px;
+    width:100px;
+}
+
+.col7{
+    position: relative;
+    left:616px;
+    bottom: 5057px;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,.h7,.h8{
+    border: 3px solid black;
+    
+}
+.col8>:nth-of-type(2n+1){
+    background-color: white;
+    height: 100px;
+    width:100px;
+}
+.col8>:nth-of-type(2n){
+    background-color: black;
+    width:100px;
+    height:100px;
+    color: white;
+}
+.col8{
+    position: relative;
+    left:721px;
+    bottom:5899px
+}
+.a1:hover,.a2:hover,.a7:hover,.a8:hover{
+    background-color: red;
+}
+.b1:hover,.b2:hover,.b7:hover,.b8:hover{
+    background-color: blue;
+}
+.c1:hover,.c2:hover,.c7:hover,.c8:hover{
+    background-color: red;
+}
+.d1:hover,.d2:hover,.d7:hover,.d8:hover{
+    background-color: blue;
+}
+.e1:hover,.e2:hover,.e7:hover,.e8:hover{
+    background-color: red;
+}
+.f1:hover,.f2:hover,.f7:hover,.f8:hover{
+    background-color: blue;
+}
+.g1:hover,.g2:hover,.g7:hover,.g8:hover{
+    background-color: red;
+}
+.h1:hover,.h2:hover,.h7:hover,.h8:hover{
+    background-color: blue;
+}
+
+.a1{
+
+    text-align: center;
+    font-size: 60px;
+}
+*{
+    text-align: center;
+    font-size: 60px;
+    }
+    </style>
+</head>
+<body>
+    <div class="text"><h2>Chess board</h2></div>
+	<div class="main">
+    <div class="col1">
+    <div class="a1">&#9814</div>
+    <div class="a2">&#9823</div>
+    <div class="a3"></div>
+    <div class="a4"></div>
+    <div class="a5"></div>
+    <div class="a6"></div>
+    <div class="a7">&#9817</div>
+    <div class="a8">&#9820</div>
+</div>
+    <div class="col2">
+    <div class="b1">&#9822</div>
+    <div class="b2">&#9817</div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+    <div class="b5"></div>
+    <div class="b6"></div>
+    <div class="b7">&#9823</div>
+    <div class="b8">&#9816</div>
+</div>
+    <div class="col3">
+    <div class="c1">&#9815</div>
+    <div class="c2">&#9823</div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="c5"></div>
+    <div class="c6"></div>
+    <div class="c7">&#9817</div>
+    <div class="c8">&#9821</div>
+</div>
+<div class="col4">
+    <div class="d1">&#9819</div>
+    <div class="d2">&#9817</div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+    <div class="d5"></div>
+    <div class="d6"></div>
+    <div class="d7">&#9823</div>
+    <div class="d8">&#9813</div>
+</div>
+<div class="col5">
+    <div class="e1">&#9818</div>
+    <div class="e2">&#9823</div>
+    <div class="e3"></div>
+    <div class="e4"></div>
+    <div class="e5"></div>
+    <div class="e6"></div>
+    <div class="e7">&#9817</div>
+    <div class="e8">&#9818</div>
+</div>
+<div class="col6">
+    <div class="f1">&#9821</div>
+    <div class="f2">&#9817</div>
+    <div class="f3"></div>
+    <div class="f4"></div>
+    <div class="f5"></div>
+    <div class="f6"></div>
+    <div class="f7">&#9823</div>
+    <div class="f8">&#9815</div>
+</div>
+<div class="col7">
+    <div class="g1">&#9816</div>
+    <div class="g2">&#9823</div>
+    <div class="g3"></div>
+    <div class="g4"></div>
+    <div class="g5"></div>
+    <div class="g6"></div>
+    <div class="g7">&#9817</div>
+    <div class="g8">&#9822</div>
+</div>
+<div class="col8">
+    <div class="h1">&#9820</div>
+    <div class="h2">&#9817</div>
+    <div class="h3"></div>
+    <div class="h4"></div>
+    <div class="h5"></div>
+    <div class="h6"></div>
+    <div class="h7">&#9823</div>
+    <div class="h8">&#9820</div>
+</div>
+</div>  
+</body>
+</html>
